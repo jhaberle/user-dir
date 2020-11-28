@@ -79,12 +79,13 @@ const Table = () => {
     editable: true,
     filter: true,
   };
+
   return (
-    <div className="ag-theme-alpine" style={{ height: 400, width: 600 }}>
+    <div className="ag-theme-alpine" style={{ height: 400, width: 1200 }}>
       <AgGridReact
         rowData={data}
         columnDefs={columns}
-        defaultCOlDef={defaultColDef}
+        defaultColDef={defaultColDef}
       />
     </div>
   );

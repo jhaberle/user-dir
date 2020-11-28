@@ -4,7 +4,7 @@ import Table from "./Table";
 const App = () => {
   return (
     <div className="App">
-      <h1>react-app</h1>
+      <h1>User Directory </h1>
       <Table />
     </div>
   );
